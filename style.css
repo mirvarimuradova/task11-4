@@ -1,0 +1,21 @@
+.main{
+    background-color: #808080;
+  display: grid;
+ margin: 40px auto;
+ width: 600px;
+}
+.main div{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: auto;
+}
+div section:nth-child(2){
+    margin-top: 60px;
+    font-size: 30px;
+    color: #fff;
+}
+img{
+    margin:10px 60px;
+    width: 150px;
+    background-color: #808080;
+}
